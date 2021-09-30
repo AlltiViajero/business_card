@@ -1,10 +1,6 @@
 body{
 	margin: 0;
 	padding: 0;
-	/* height: 100vh;
-	display: flex;
-	align-items: center;
-	justify-content: center; */
 	background-color: #3e3e3e;
 }
 .info{
@@ -15,6 +11,7 @@ body{
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	
 }
 .front, .back{
 	width: 500px;
@@ -23,6 +20,7 @@ body{
 	box-sizing: border-box;
 	backface-visibility: hidden;
 	transition: 0.4s linear;
+	border-radius: 5px;
 }
 .front{
 	background-color: rgba(253, 253, 253, 0.7);
