@@ -10,7 +10,7 @@ body{
 .info{
 	list-style: none;
 }
-.card{
+#card{
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -91,9 +91,9 @@ body{
 	font-size: 32px;
 	transform: perspective(600px) rotateX(0);
 }
-.card_active .front{
+.active .front{
 	transform: perspective(600px) rotateX(0);
 }
-.card_active .back{
+.active .back{
 	transform: perspective(600px) rotateX(-180deg);
 }
